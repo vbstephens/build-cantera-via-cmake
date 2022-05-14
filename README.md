@@ -7,6 +7,6 @@ Because Cantera is added via ExternalProject, its contents will not be immediate
 1. `cmake ..`
 2. `make cantera`
 3. `make`
-4. `install`
+4. `make install`
 
 You should then be able to `#include` whatever parts of Cantera you want to use, and the `Cantera` namespace should be available.
